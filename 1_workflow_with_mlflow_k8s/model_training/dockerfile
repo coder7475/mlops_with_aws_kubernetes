@@ -1,0 +1,9 @@
+FROM python:3.8-slim-buster
+
+WORKDIR /app
+
+COPY train_model.py .
+
+RUN pip install mlflow scikit-learn pandas numpy joblib psycopg2-binary boto3
+
+CMD ["python", "train_model.py"]
