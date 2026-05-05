@@ -1,0 +1,6 @@
+[submodule "model-training-with-modular-workflow"]
+	path = model-training-with-modular-workflow
+	url = git@github.com:coder7475/model-training-with-modular-workflow.git
+[submodule "ml-fundamentals"]
+	path = ml-fundamentals
+	url = git@github.com:coder7475/ml-fundamentals.git
