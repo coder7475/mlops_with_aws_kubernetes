@@ -1,0 +1,4 @@
+Model: SGDRegressor
+MSE: 2962.6309576656713
+Lerning Rate: 0.01
+Iterations: 1000
